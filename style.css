@@ -5,10 +5,13 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .orange-color{
     color: orange;
 }
-section{
+.flixible-container{
     display: flex;
     margin-bottom: 150px;
 }
@@ -36,4 +39,26 @@ section{
     background-repeat: no-repeat;
     background-position: right;
     padding-left: 5%;
+}
+.exp-item{
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 40px gray;
+    border-left: 7px solid;
+}
+.exp-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#bb-web-dev{
+    border-image: linear-gradient(blue, cyan)8;
+}
+#fs-web-dev{
+    border-image: linear-gradient(lightsalmon, tomato)8;
+}
+footer p{
+    text-align: center;
 }
